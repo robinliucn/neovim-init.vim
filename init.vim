@@ -53,6 +53,9 @@ Plug 'junegunn/rainbow_parentheses.vim'
 Plug 'junegunn/limelight.vim'
 Plug 'junegunn/vim-journal'
 
+" COC
+Plug 'neoclide/coc.nvim', {'branch': 'release', 'do': ':CocInstall coc-rust-analyzer'}
+
 call plug#end()
 
 """ Main Configurations
